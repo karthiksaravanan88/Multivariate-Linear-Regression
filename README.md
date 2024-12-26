@@ -22,8 +22,7 @@ To write a python program to implement multivariate linear regression and predic
 
 ## Program:
 '''
-Developed by : KARTHIK SARAVANAN B
-Reg No : 24900049
+
 import pandas as pd
 from sklearn import linear_model
 df = pd.read_csv("/content/car.csv")
@@ -36,7 +35,12 @@ print('Intercept:', regr.intercept_)
 predictedCO2 = regr.predict(pd.DataFrame([[3300, 1300]], columns=['Weight', 'Volume']))
 print('Predicted CO2 for the corresponding weight and volume:', predictedCO2)
 
-'''
+
+
+
+
+
+
 
 
 
